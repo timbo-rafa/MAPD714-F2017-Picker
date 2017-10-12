@@ -50,18 +50,11 @@ class DoubleComponentViewController: UIViewController, UIPickerViewDelegate, UIP
     }
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        if component == breadComponent {
-            return breadTypes.count
-        } else {
-            return fillingTypes.count
-        }
+        return (component == breadComponent) ? breadTypes.count : fillingTypes.count
     }
     
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        if component == breadComponent {
-            return breadTypes[row]
-        } else {
-            return fillingTypes[row]
-        }
+        
+        return (component == breadComponent) ? breadTypes[row] : fillingTypes[row]
     }
 }
