@@ -16,6 +16,7 @@
 		3FE5BFBB1F8EDFB800ED26DE /* DoubleComponentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5BFBA1F8EDFB800ED26DE /* DoubleComponentViewController.swift */; };
 		3FE5BFBD1F8EDFC700ED26DE /* DependentComponentPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5BFBC1F8EDFC700ED26DE /* DependentComponentPickerViewController.swift */; };
 		3FE5BFBF1F8EDFD100ED26DE /* CustomPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE5BFBE1F8EDFD100ED26DE /* CustomPickerViewController.swift */; };
+		3FE5BFC11F8F02ED00ED26DE /* statedictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3FE5BFC01F8F02ED00ED26DE /* statedictionary.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3FE5BFBA1F8EDFB800ED26DE /* DoubleComponentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DoubleComponentViewController.swift; sourceTree = "<group>"; };
 		3FE5BFBC1F8EDFC700ED26DE /* DependentComponentPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependentComponentPickerViewController.swift; sourceTree = "<group>"; };
 		3FE5BFBE1F8EDFD100ED26DE /* CustomPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomPickerViewController.swift; sourceTree = "<group>"; };
+		3FE5BFC01F8F02ED00ED26DE /* statedictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = statedictionary.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				3FE5BFAB1F8EDF0A00ED26DE /* Assets.xcassets */,
 				3FE5BFAD1F8EDF0A00ED26DE /* LaunchScreen.storyboard */,
 				3FE5BFB01F8EDF0A00ED26DE /* Info.plist */,
+				3FE5BFC01F8F02ED00ED26DE /* statedictionary.plist */,
 			);
 			path = "MAPD714-F2017-PickersTab";
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				3FE5BFAF1F8EDF0A00ED26DE /* LaunchScreen.storyboard in Resources */,
 				3FE5BFAC1F8EDF0A00ED26DE /* Assets.xcassets in Resources */,
+				3FE5BFC11F8F02ED00ED26DE /* statedictionary.plist in Resources */,
 				3FE5BFAA1F8EDF0A00ED26DE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,6 +322,7 @@
 				3FE5BFB51F8EDF0A00ED26DE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
